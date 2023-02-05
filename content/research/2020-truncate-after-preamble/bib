@@ -1,0 +1,17 @@
+@inproceedings{10.1145/3395351.3399356,
+author = {Gvozdenovic, Stefan and Becker, Johannes K and Mikulskis, John and Starobinski, David},
+title = {Truncate after Preamble: PHY-Based Starvation Attacks on IoT Networks},
+year = {2020},
+isbn = {9781450380065},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3395351.3399356},
+doi = {10.1145/3395351.3399356},
+abstract = {We present and evaluate Truncate-after-Preamble (TaP) attacks, whereby a receiver cannot decode an incoming signal despite good channel conditions. In a TaP attack, the attacker announces a large payload length using a standard preamble and packet length field, but omits to transmit the payload. We implement the TaP attack on a SDR platform, and evaluate the effectiveness of the attack on five Zigbee and seven Wi-Fi devices sold by different manufacturers. We show that all of the Zigbee devices are vulnerable to the attack, while the Wi-Fi devices are vulnerable to the attack to varying degrees. Chiefly, we show that an attacker can cause over 90\% packet loss on a Zigbee or Wi-Fi channel, using respectively six or five orders of magnitude less energy than a constant jammer would. Finally, we present several methods, with different degrees of sophistication, for detecting the attacks.},
+booktitle = {Proceedings of the 13th ACM Conference on Security and Privacy in Wireless and Mobile Networks},
+pages = {89–98},
+numpages = {10},
+keywords = {internet of things, software-defined radio, physical layer, denial of service},
+location = {Linz, Austria},
+series = {WiSec '20}
+}

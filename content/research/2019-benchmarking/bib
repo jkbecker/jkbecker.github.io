@@ -1,0 +1,8 @@
+@inproceedings{xin2019benchmarking,
+  title={Benchmarking the physical layer of wireless cards using software-defined radios},
+  author={Xin, Liangxiao and Becker, Johannes K and Gvozdenovic, Stefan and Starobinski, David},
+  booktitle={Proceedings of the 22nd International ACM Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems},
+  pages={271--278},
+  year={2019},
+  doi={10.1145/3345768.3355907}
+}
