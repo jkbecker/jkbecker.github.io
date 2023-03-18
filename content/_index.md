@@ -4,7 +4,7 @@
 [extra]
 
 # Show a concise description of what you do below your avatar.
-title = "Concise description"
+title = "Developing the Adaptive Network Computing paradigm"
 
 # The list of interests displayed
 interests = [

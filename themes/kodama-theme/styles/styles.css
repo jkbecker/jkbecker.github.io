@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 #header {
-  background-color: white;
+  background-color: yellow;
 }
 
 .zola-anchor {
