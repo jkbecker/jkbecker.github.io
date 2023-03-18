@@ -14,7 +14,7 @@ jobs:
       - name: Checkout main
         uses: actions/checkout@v3.0.0
       - name: Tailwind
-        run: cd themes/kodama-theme && npx tailwindcss -i styles/styles.css -o static/styles/styles.css
+        run: cd themes/kodama-theme && npm install -D tailwindcss && npx tailwindcss init && npx tailwindcss -i styles/styles.css -o static/styles/styles.css
       - name: Build only 
         uses: shalzz/zola-deploy-action@v0.17.1
         env:
@@ -30,7 +30,7 @@ jobs:
       - name: Checkout main
         uses: actions/checkout@v3.0.0
       - name: Tailwind
-        run: cd themes/kodama-theme && npx tailwindcss -i styles/styles.css -o static/styles/styles.css
+        run: cd themes/kodama-theme && npm install -D tailwindcss && npx tailwindcss init && npx tailwindcss -i styles/styles.css -o static/styles/styles.css
       - name: Build and deploy
         uses: shalzz/zola-deploy-action@v0.17.1
         env:
