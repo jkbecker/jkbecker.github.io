@@ -36,7 +36,7 @@ jobs:
       - name: Tailwind
         run: |
           cd themes/kodama-theme
-          npm install -D tailwindcss
+          npm install tailwindcss
           npx tailwindcss init
           npx tailwindcss -i styles/styles.css -o static/styles/styles.css
       - name: Install Zola
