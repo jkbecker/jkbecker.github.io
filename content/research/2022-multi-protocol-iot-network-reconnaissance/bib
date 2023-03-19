@@ -1,0 +1,12 @@
+@INPROCEEDINGS{9947261,
+  author={Gvozdenovic, Stefan and Becker, Johannes K and Mikulskis, John and Starobinski, David},
+  booktitle={2022 IEEE Conference on Communications and Network Security (CNS)}, 
+  title={Multi-Protocol IoT Network Reconnaissance}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={118-126},
+  doi={10.1109/CNS56114.2022.9947261},
+  url={https://doi.org/10.1109/CNS56114.2022.9947261},
+  abstract={Network reconnaissance is a core security functionality, which can be used to detect hidden unauthorized devices or to identify missing devices. Currently, there is a lack of network reconnaissance tools capable of discovering Internet of Things (IoT) devices across multiple protocols. To bridge this gap, we introduce IoT-Scan, an extensible IoT network reconnaissance tool. IoT-Scan is based on softwaredefined radio (SDR) technology, which allows for a flexible implementation of radio protocols. We propose passive, active, multi-channel, and multi-protocol scanning algorithms to speed up the discovery of devices with IoT-Scan. We implement the scanning algorithms and compare their performance with four popular IoT protocols: Zigbee, Bluetooth LE, Z-Wave, and LoRa. Through experiments with dozens of IoT devices, we demonstrate that our implementation experiences minimal packet losses, and achieves performance near a theoretical benchmark.}
+  }

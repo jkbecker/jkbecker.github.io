@@ -1,0 +1,21 @@
+@InProceedings{10.1007/978-3-319-11617-4_2,
+author="Becker, Johannes
+and Gilbert, Mark
+and Förg, Armin
+and Kreimeyer, Matthias
+and Rhodes, Donna
+and Lienkamp, Markus",
+editor="Boulanger, Frédéric
+and Krob, Daniel
+and Morel, Gérard
+and Roussel, Jean-Claude",
+title="Dependency Analysis as a Heat Map for Architecture Standardization",
+booktitle="Complex Systems Design & Management",
+year="2015",
+publisher="Springer International Publishing",
+address="Cham",
+pages="15--29",
+abstract="Heavy duty trucks are high variant products with a comparably small production volume per product family. A high degree of specialization regarding utilization scenarios and transportation tasks, as well as strong spreading of functional variability generate increasing numbers of offered variants. The continuous introduction of new legal, technical and customer requirements combined with long product life cycles as well as the need for prolonged technological backward compatibility causes a complexity problem. Architecture standardization is a key lever in reducing complexity by deliberately cutting the number of variants and defining stable interfaces. However, at this point standardization potentials do not seem to be fully exploited.",
+isbn="978-3-319-11617-4"
+}
+

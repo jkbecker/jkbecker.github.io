@@ -1,0 +1,12 @@
+@ARTICLE{9925108,
+  author={Becker, Johannes K. and Starobinski, David},
+  journal={IEEE Transactions on Network and Service Management}, 
+  title={Snout: A Middleware Platform for Software-Defined Radios}, 
+  year={2023},
+  volume={20},
+  number={1},
+  pages={644-657},
+  doi={10.1109/TNSM.2022.3215626},
+  url={https://doi.org/10.1109/TNSM.2022.3215626},
+  abstract={The plethora of Internet of Things (IoT) protocols and the upcoming availability of new spectrum bands for wirelessly connected devices have made software-defined radio (SDR) technology increasingly useful to interact with radio-based communication. While SDR-based tools have grown in popularity in recent years due to their flexibility and adaptability towards new protocols, SDR software interfaces remain highly complex and technical, and inherently require specialized skillsets in digital signal processing (DSP) to operate. To address this problem, we present Snout, an SDR middleware platform that encapsulates and abstracts much of the current complexity in SDR toolchains. This allows SDR developers to create wireless networking applications usable by a wide range of users. For instance, network security professionals can monitor the IoT landscape across multiple protocols without needing to interact with the underlying software-defined DSP. Snout implements interfaces with common network analysis tools to allow for integration with traditional network security solutions, facilitating use cases such as traffic analysis or rogue device detection. Its software architecture enables scalability in terms of protocols and processing by modularizing the signal processing pipeline. To demonstrate Snout’s capabilities, we show how it can encapsulate GNU Radio flowgraphs, facilitate simultaneous multi-protocol scanning, and convert existing SDR-based protocol implementations into fully contained applications. We further demonstrate how Snout can handle GNU Radio flowgraphs with other signal processing software simultaneously. Through extensive experiments, we demonstrate that Snout incurs limited CPU performance overhead below 4% and a memory footprint below 100MB, and handles large amounts of events with sub-millisecond latency.}
+}

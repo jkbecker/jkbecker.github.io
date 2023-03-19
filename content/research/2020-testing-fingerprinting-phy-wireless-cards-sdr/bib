@@ -1,0 +1,13 @@
+@article{BECKER2020186,
+title = {Testing and fingerprinting the physical layer of wireless cards with software-defined radios},
+booktitle = {Computer Communications},
+volume = {160},
+pages = {186-196},
+year = {2020},
+issn = {0140-3664},
+doi = {10.1016/j.comcom.2020.05.031},
+url = {https://doi.org/10.1016/j.comcom.2020.05.031},
+author = {Johannes K. Becker and Stefan Gvozdenovic and Liangxiao Xin and David Starobinski},
+keywords = {Testbed, Wi-Fi, Device fingerprinting, Signal synthesis, Interference, Capture effect, Interframe spacing, RX-to-RX turnaround time},
+abstract = {Many performance characteristics of wireless devices are fundamentally influenced by their vendor-specific physical layer implementation. Yet, characterizing the physical layer behavior of wireless devices usually requires complex testbeds with expensive equipment, making such behavior inaccessible and opaque to the end user, and complex to perform for wireless researchers. In this work, we propose and implement a new testbed architecture for software-defined radio-based wireless device performance benchmarking. The testbed allows tight control of timing events, at a microsecond time granularity, and is capable of accessing and measuring physical layer protocol features of real wireless devices, which allows to fingerprint the device type with high accuracy. Using the testbed, we measure the receiver sensitivity and signal capture behavior of Wi-Fi devices from different vendors. We identify marked differences in their performance, including a variation of as much as 20 dB in their receiver sensitivity. We further assess the response of the devices to truncated packets and show that this procedure can be employed to fingerprint device types with high consistency in both wired and wireless lab setups using only commodity SDR equipment.}
+}

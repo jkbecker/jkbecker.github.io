@@ -2,5 +2,8 @@
   title={IoT Security and Privacy Assessment Using Software-Defined Radios},
   author={Becker, Johannes K},
   year={2022},
-  school={Boston University}
+  school={Boston University},
+  url={https://open.bu.edu/handle/2144/44706},
+  publisher={OpenBU},
+  abstract={The Internet of Things (IoT) has seen exceptional adoption in recent years, resulting in an unprecedented level of connectivity in personal and industrial domains. In parallel, software-defined radio (SDR) technology has become increasingly powerful, making it a compelling tool for wireless security research across multiple communication protocols. Specifically, SDRs are capable of manipulating the physical layer of protocols in software, which would otherwise be implemented statically in hardware. This flexibility enables research that goes beyond the boundaries of protocol specifications. This dissertation pursues four research directions that are either enabled by software-defined radio technology, or advance its utility for security research.}
 }

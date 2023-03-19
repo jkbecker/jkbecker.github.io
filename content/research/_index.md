@@ -12,8 +12,8 @@ page_template = "publication-page.html"
 # Each individual plublication has an `extra.type` that refers to the
 # publication type (example in content sub-section).
 extra.publications_types = [
-  { title = "Journal articles", type = "journals" },
   { title = "Thesis", type = "thesis" },
+  { title = "Journal articles", type = "journals" },
   { title = "Conferences and workshops ", type = "conferences" }
 ]
 +++

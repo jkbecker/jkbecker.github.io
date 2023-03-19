@@ -1,0 +1,9 @@
+@inproceedings{optimizing-freshness,
+author = {Becker, Johannes K and Starobinski, David},
+title = {Optimizing Freshness in IoT Scans},
+year = {2022},
+publisher = {IEEE},
+abstract = {Motivated by IoT security monitoring applications, we consider the problem of a wireless monitor that must implement a multi-channel scanning policy to minimize the Age of Information (AoI) of received information. We model this problem as a Markov Decision Process (MDP). To address the curse of dimensionality, we propose various scanning policies of low computational complexity. We compare the performance of these policies against the optimal one in small instances, and further simulate them using time-series data obtained from real IoT device communication traces. We show that a policy, coined Greedy Expected Area (GEA), performs well in many scenarios.},
+booktitle = {Proceedings of the 2022 IEEE 7th World Forum on Internet of Things (WF-IoT)},
+location = {Yokohama, Japan}
+}

@@ -1,0 +1,12 @@
+@INPROCEEDINGS{9184528,
+  author={Gvozdenovic, Stefan and Becker, Johannes K and Starobinski, David},
+  booktitle={2020 IEEE 63rd International Midwest Symposium on Circuits and Systems (MWSCAS)}, 
+  title={SDR-based PHY Characterization of Zigbee Devices}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={129-132},
+  doi={10.1109/MWSCAS48704.2020.9184528},
+  url={https://doi.org/10.1109/MWSCAS48704.2020.9184528},
+  abstract={We demonstrate characterization of Zigbee devices at the physical layer using commodity software-defined radio (SDR) hardware and an open-source software testbed setup. Using this testbed, we run different types of experiments to characterize and distinguish between the performance of four Zigbee devices. Receiver sensitivity experiments show that the devices exhibit differences of up to 2-3 dB in terms of their reception capability. Interframe spacing and capture experiments demonstrate the ability to conduct fine-grained timing experiments, craft multi-packet transmissions, and derive devicespecific reception curves. The results of this paper complement previous work on Wi-Fi and illustrate the flexibility of our SDRbased testbed to serve as as a cross-protocol evaluation platform.}
+  }
