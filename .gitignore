@@ -3,3 +3,4 @@ themes/kodama-theme/content/*
 themes/kodama-theme/node_modules/*
 themes/kodama-theme/resources/_gen/*
 public/*
+.DS_Store

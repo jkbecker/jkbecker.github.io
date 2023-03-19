@@ -4,7 +4,7 @@
 [extra]
 
 # Show a concise description of what you do below your avatar.
-title = "Developing the Adaptive Network Computing paradigm"
+title = "Co-Founder and Director of Research at Serval Computing"
 
 # The list of interests displayed
 interests = [
@@ -32,9 +32,13 @@ interests = [
 
 # Finally, a list of icons with a link displayed below your avatar
 [[extra.avatar_icons]]
-  icon = "github"
+  img_icon = "/img/serval.png"
+  alt = "Serval"
+  link = "https://serval.sh/"
+[[extra.avatar_icons]]
+  factory_icon = "github"
   link = "https://github.com/jkbecker"
 [[extra.avatar_icons]]
-  icon = "linkedin"
+  factory_icon = "linkedin"
   link = "https://www.linkedin.com/in/johannes-k-becker/"
 +++
