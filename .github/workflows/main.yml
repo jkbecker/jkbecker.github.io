@@ -40,7 +40,7 @@ jobs:
           npx tailwindcss init
       - name: Build Tailwind
         working-directory: ./themes/kodama-theme
-        run: npx tailwindcss -i styles/styles.css -o static/styles/styles.css
+        run: npx tailwindcss -i styles/styles.css -o static/styles/styles.css -m
       - name: Install Zola
         uses: taiki-e/install-action@v2
         with:
