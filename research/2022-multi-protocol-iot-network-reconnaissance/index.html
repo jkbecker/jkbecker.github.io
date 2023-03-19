@@ -62,27 +62,27 @@
 
 <div class="container max-w-3xl mx-auto px-4">
   <div class="pt-8 flex-col mb-8">
-    <h1 class="grow font-bold font-sans break-normal text-gray-900 text-3xl">IoT Security and Privacy Assessment Using Software-Defined Radios</h1>
+    <h1 class="grow font-bold font-sans break-normal text-gray-900 text-3xl">Multi-Protocol IoT Network Reconnaissance</h1>
     <div class="grow">
       <p class="text-sm text-slate-400">
         
-          Becker, Johannes K
+          Gvozdenovic, Stefan and Becker, Johannes K and Mikulskis, John and Starobinski, David
         
       </p>
     </div>
     <div class="grow">
-      <p class="text-sm text-slate-400">May 2022</p>
+      <p class="text-sm text-slate-400">October 2022</p>
     </div>
     <div class="grow pt-2"> 
       
-      <a class="rounded-md border-solid border border-teal-800 inline-flex items-center text-teal-800 justify-center px-2 py-1 mr-2 text-xs font-bold" target="_blank" href="https:&#x2F;&#x2F;open.bu.edu&#x2F;bitstream&#x2F;handle&#x2F;2144&#x2F;44706&#x2F;Becker_bu_0017E_17195.pdf?sequence=8&amp;isAllowed=y"> pdf </a>
+      <a class="rounded-md border-solid border border-teal-800 inline-flex items-center text-teal-800 justify-center px-2 py-1 mr-2 text-xs font-bold" target="_blank" href="https:&#x2F;&#x2F;people.bu.edu&#x2F;staro&#x2F;IoT_Scan_CNS22.pdf"> pdf </a>
       
 
 
       
 
       
-      <a class="rounded-md border-solid border border-teal-800 inline-flex items-center text-teal-800 justify-center px-2 py-1 mr-2 text-xs font-bold" href="https:&#x2F;&#x2F;open.bu.edu&#x2F;handle&#x2F;2144&#x2F;44706"> url </a>
+      <a class="rounded-md border-solid border border-teal-800 inline-flex items-center text-teal-800 justify-center px-2 py-1 mr-2 text-xs font-bold" href="https:&#x2F;&#x2F;doi.org&#x2F;10.1109&#x2F;CNS56114.2022.9947261"> url </a>
       
     </div>
   </div>
@@ -93,22 +93,25 @@
 
   
   <h2 class="font-bold">Abstract</h2>
-  <article class="prose prose-indigo prose max-w-3xl pb-4">The Internet of Things (IoT) has seen exceptional adoption in recent years, resulting in an unprecedented level of connectivity in personal and industrial domains. In parallel, software-defined radio (SDR) technology has become increasingly powerful, making it a compelling tool for wireless security research across multiple communication protocols. Specifically, SDRs are capable of manipulating the physical layer of protocols in software, which would otherwise be implemented statically in hardware. This flexibility enables research that goes beyond the boundaries of protocol specifications. This dissertation pursues four research directions that are either enabled by software-defined radio technology, or advance its utility for security research. </article>
+  <article class="prose prose-indigo prose max-w-3xl pb-4">Network reconnaissance is a core security functionality, which can be used to detect hidden unauthorized devices or to identify missing devices. Currently, there is a lack of network reconnaissance tools capable of discovering Internet of Things (IoT) devices across multiple protocols. To bridge this gap, we introduce IoT-Scan, an extensible IoT network reconnaissance tool. IoT-Scan is based on softwaredefined radio (SDR) technology, which allows for a flexible implementation of radio protocols. We propose passive, active, multi-channel, and multi-protocol scanning algorithms to speed up the discovery of devices with IoT-Scan. We implement the scanning algorithms and compare their performance with four popular IoT protocols: Zigbee, Bluetooth LE, Z-Wave, and LoRa. Through experiments with dozens of IoT devices, we demonstrate that our implementation experiences minimal packet losses, and achieves performance near a theoretical benchmark. </article>
   
 
   
   <div>
     <p class="font-bold">Bibtex</p>
     <div class="prose prose-indigo pb-4">
-      <pre ><code class="select-all">@phdthesis{becker2022iot,
-  title={IoT Security and Privacy Assessment Using Software-Defined Radios},
-  author={Becker, Johannes K},
+      <pre ><code class="select-all">@INPROCEEDINGS{9947261,
+  author={Gvozdenovic, Stefan and Becker, Johannes K and Mikulskis, John and Starobinski, David},
+  booktitle={2022 IEEE Conference on Communications and Network Security (CNS)}, 
+  title={Multi-Protocol IoT Network Reconnaissance}, 
   year={2022},
-  school={Boston University},
-  url={https://open.bu.edu/handle/2144/44706},
-  publisher={OpenBU},
-  abstract={The Internet of Things (IoT) has seen exceptional adoption in recent years, resulting in an unprecedented level of connectivity in personal and industrial domains. In parallel, software-defined radio (SDR) technology has become increasingly powerful, making it a compelling tool for wireless security research across multiple communication protocols. Specifically, SDRs are capable of manipulating the physical layer of protocols in software, which would otherwise be implemented statically in hardware. This flexibility enables research that goes beyond the boundaries of protocol specifications. This dissertation pursues four research directions that are either enabled by software-defined radio technology, or advance its utility for security research.}
-}</code></pre>
+  volume={},
+  number={},
+  pages={118-126},
+  doi={10.1109/CNS56114.2022.9947261},
+  url={https://doi.org/10.1109/CNS56114.2022.9947261},
+  abstract={Network reconnaissance is a core security functionality, which can be used to detect hidden unauthorized devices or to identify missing devices. Currently, there is a lack of network reconnaissance tools capable of discovering Internet of Things (IoT) devices across multiple protocols. To bridge this gap, we introduce IoT-Scan, an extensible IoT network reconnaissance tool. IoT-Scan is based on softwaredefined radio (SDR) technology, which allows for a flexible implementation of radio protocols. We propose passive, active, multi-channel, and multi-protocol scanning algorithms to speed up the discovery of devices with IoT-Scan. We implement the scanning algorithms and compare their performance with four popular IoT protocols: Zigbee, Bluetooth LE, Z-Wave, and LoRa. Through experiments with dozens of IoT devices, we demonstrate that our implementation experiences minimal packet losses, and achieves performance near a theoretical benchmark.}
+  }</code></pre>
     </div>
   </div>
   
