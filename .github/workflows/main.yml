@@ -33,12 +33,14 @@ jobs:
     steps:
       - name: Checkout main
         uses: actions/checkout@v3.0.0
-      - name: Tailwind
+      - name: Install Tailwind
+        working-directory: ./themes/kodama-theme
         run: |
-          cd themes/kodama-theme
           npm install tailwindcss
           npx tailwindcss init
-          npx tailwindcss -i styles/styles.css -o static/styles/styles.css
+      - name: Build Tailwind
+        working-directory: ./themes/kodama-theme
+        run: npx tailwindcss -i styles/styles.css -o static/styles/styles.css
       - name: Install Zola
         uses: taiki-e/install-action@v2
         with:
