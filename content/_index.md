@@ -4,7 +4,7 @@
 [extra]
 
 # Show a concise description of what you do below your avatar.
-title = "Co-Founder and Director of Research at Serval Computing"
+title = "Multi-disciplinary engineer with a penchant for simplifying complex problems"
 
 # The list of interests displayed
 interests = [
